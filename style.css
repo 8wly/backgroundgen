@@ -1,0 +1,139 @@
+body {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+
+}
+
+.bigwrapper {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-content: space-around;
+
+}
+
+
+input {
+	border: none;
+
+
+	margin: 2px;
+	width: 10vh;
+	height: 2vh;
+	border-radius: 1em;
+	background: none;
+
+
+}
+
+input:hover {
+	background-color: white;
+	background-size: 5px;
+	cursor: pointer;
+}
+
+
+
+h1 {
+	font-family: arial;
+	letter-spacing: 1.3em;
+	text-indent: 1.3em;
+	padding-bottom: 2vh;
+	color: white;
+
+
+}
+
+h2 {
+	font-family: sans-serif;
+	font-weight: lighter;
+	letter-spacing: 1em;
+	text-indent: 1em;
+	margin-top: -3vh;
+	font-size: 80%;
+	color: white;
+
+
+}
+
+body {
+	font-size: 140%;
+}
+
+
+.wrapper {
+	
+	padding: 0;
+	margin: 0;
+	margin-top: 2vh;
+	/*padding-top: 0.6vh;*/
+
+}
+
+h4 {
+	letter-spacing: 0.3em;
+	text-indent: 0.3em;
+	color: white;
+
+}
+
+img {
+	height: 50px;
+	width: 50px;
+}
+
+img:hover {
+	cursor: pointer;
+
+}
+
+
+
+button {
+	height: 50px;
+	width: 50px;
+	border-radius: 5em;
+	border: none;
+	background: none;
+	background-image: url(white.png);
+	background-position: center;
+	background-size: 100%;
+}
+
+button:hover {
+
+	background-image: url(icon.png);
+	background-position: center;
+	background-size: 100%;
+	cursor: pointer;
+
+}
+
+button:active {
+	
+background-image: url(white.png);
+	background-position: center;
+	background-size: 100%;
+}
+
+
+
+.hr1 {
+	width: 100%;
+	color: white;
+	position: relative;
+	top: 3vh;
+
+}
+
+.hr2 {
+	width: 70%;
+	color: white;
+	position: relative;
+}
